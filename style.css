@@ -1,6 +1,4 @@
 
-
-
 nav {
     width: 100%;
     margin: 0 auto;
@@ -8,6 +6,18 @@ nav {
     padding: 10px 0;
   }
   
+  .nav-wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo {
+    flex: 1 1 auto;
+  }
+  .nav-content {
+    flex: 1 1 auto;
+  }
+
   nav ul {
     list-style: none;
     text-align: center;
@@ -77,5 +87,3 @@ nav {
     -moz-animation: fill 1s forwards;
     opacity: 1;
   }
-
-  
