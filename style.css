@@ -94,9 +94,7 @@ nav.fill ul li a:hover:after {
   opacity: 1;
 }
 
-
-
-
+/* размеры отступа */
 
 @media (max-width: 572px) {
   .main_content {
@@ -112,4 +110,10 @@ nav.fill ul li a:hover:after {
   .main_content {
     margin-top: 100px;
   }
+}
+
+/*  */
+.main_content {
+  padding-left: 20px;
+  padding-right: 20px;
 }
