@@ -100,7 +100,7 @@ nav.fill ul li a:hover:after {
 
 @media (max-width: 572px) {
   .main_content {
-    margin-top: 200px;
+    margin-top: 210px;
   }
 }
 @media (min-width: 572px) and (max-width: 770px) {
