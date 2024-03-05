@@ -103,12 +103,12 @@ nav.fill ul li a:hover:after {
     margin-top: 250px;
   }
 }
-@media (max-width: 750px) {
+@media (min-width: 572px) and (max-width: 770px) {
   .main_content {
     margin-top: 150px;
   }
 }
-@media (min-width: 749px) {
+@media (min-width: 770px) {
   .main_content {
     margin-top: 100px;
   }
