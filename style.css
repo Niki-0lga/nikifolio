@@ -15,7 +15,7 @@ nav {
   top: 0;
 }
 
-.nav-content{
+.nav-content {
   font-weight: 800;
 }
 
@@ -98,14 +98,18 @@ nav.fill ul li a:hover:after {
 
 
 
-
+@media (max-width: 572px) {
+  .main_content {
+    margin-top: 250px;
+  }
+}
 @media (max-width: 750px) {
-.main_content{
-  margin-top: 150px;
+  .main_content {
+    margin-top: 150px;
+  }
 }
-}
-@media (min-width: 750px) {
-  .main_content{
+@media (min-width: 749px) {
+  .main_content {
     margin-top: 100px;
   }
-  }
+}
