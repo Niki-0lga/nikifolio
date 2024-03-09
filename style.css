@@ -116,4 +116,37 @@ nav.fill ul li a:hover:after {
 .main_content {
   padding-left: 20px;
   padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.lines{
+  margin-left: 300px;
+  height: 150px;
+  width: 200px;
+  border-left: 3px dotted black;
+  border-right: 3px dotted black;
+}
+
+.square{ 
+  margin-left: 250px;
+  border: 2px solid black;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pfp{
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.text-box{
+  margin-left: 200px;
+  margin-top: 100px;
 }
