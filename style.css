@@ -99,11 +99,16 @@ nav.fill ul li a:hover:after {
 @media (max-width: 572px) {
   .main_content {
     margin-top: 230px;
+    display: flex;
+    flex-direction: column;
   }
+
 }
 @media (min-width: 572px) and (max-width: 770px) {
   .main_content {
     margin-top: 150px;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (min-width: 770px) {
@@ -120,7 +125,7 @@ nav.fill ul li a:hover:after {
   flex-direction: row;
 }
 
-.lines{
+.lines {
   margin-left: 300px;
   height: 150px;
   width: 200px;
@@ -128,7 +133,7 @@ nav.fill ul li a:hover:after {
   border-right: 3px dotted black;
 }
 
-.square{ 
+.square {
   margin-left: 250px;
   border: 2px solid black;
   width: 300px;
@@ -139,14 +144,14 @@ nav.fill ul li a:hover:after {
   align-items: center;
 }
 
-.pfp{
+.pfp {
   height: 200px;
   width: 200px;
   border: 1px solid black;
   border-radius: 50%;
 }
 
-.text-box{
+.text-box {
   margin-left: 200px;
   margin-top: 100px;
 }
